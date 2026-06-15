@@ -1,0 +1,28 @@
+{
+  "train_rmse_raw": 3.218325866275131e-16,
+  "test_rmse_raw": 0.7030445773467542,
+  "train_r2_raw": 1.0,
+  "test_r2_raw": 0.6228111330554302,
+  "overfit_gap": 0.7030445773467539,
+  "lr_rmse": 0.7455813830127764,
+  "lr_r2": 0.5757877060324508,
+  "cv_lr": 0.7459068363518113,
+  "ridge_rmse": 0.7455786658914669,
+  "ridge_r2": 0.5757907979394905,
+  "cv_ridge_tuned": 0.7459062101326918,
+  "best_ridge_alpha": 0.1,
+  "tree_rmse": 0.6389361233642388,
+  "tree_r2": 0.6884641539256358,
+  "cv_tree_tuned": 0.7686693890050359,
+  "train_rmse_tuned": 0.4865960136384907,
+  "train_r2_tuned": 0.8228758679632282,
+  "best_tree_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 4,
+    "min_samples_split": 2
+  },
+  "best_model_name": "Tuned Decision Tree",
+  "best_rmse": 0.6389361233642388,
+  "best_r2": 0.6884641539256358,
+  "overfit_gap_tuned": 0.15234010972574807
+}
